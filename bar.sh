@@ -8,6 +8,6 @@ while :; do
     date=$(~/.config/scripts/date.sh)
     cpu=$(~/.config/scripts/cpu.sh)
     wttr=$(~/.config/scripts/wttr.sh)
-    echo "[ $pkg | $spt | $cpu | $mem | $net | $wttr | $date ]"
+    echo "$pkg | $spt | $cpu | $mem | $net | $wttr |" 
     sleep 0.3
 done
